@@ -1,5 +1,5 @@
 {
-    "name": "voku/portable-utf8",
+    "name": "c-quential/portable-utf8",
     "description": "Portable UTF-8 library - performance optimized (unicode) string functions for php.",
     "type": "library",
     "keywords": [
@@ -27,7 +27,7 @@
         }
     ],
     "require": {
-        "php": ">=7.0.0",
+        "php": ">=8.4.0",
         "symfony/polyfill-php72": "~1.0",
         "symfony/polyfill-iconv": "~1.0",
         "symfony/polyfill-intl-grapheme": "~1.0",
@@ -62,5 +62,8 @@
         "psr-4": {
             "voku\\tests\\": "tests/"
         }
+    },
+    "replace": {
+        "voku/portable-utf8":"6.0.13"
     }
 }
